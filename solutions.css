@@ -26,8 +26,7 @@
 .ex-4-square{
     transition: 3s;
 }
-
-.ex-4-square{
+.ex-4-square:hover{
     opacity: 0%;
 }
 
@@ -40,6 +39,20 @@
 }
 .ex-5-square:active{
     transform: scale(0.5);
+}
+
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+
+.ex-7-img{
+    transition: 3s;
+}
+.ex-7-img:hover{
+    filter: grayscale(1);
+    filter: blur(1);
 }
 
 
